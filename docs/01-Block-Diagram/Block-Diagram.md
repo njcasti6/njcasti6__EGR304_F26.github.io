@@ -15,7 +15,7 @@ This is the individual block diagram for the weight sensing board of Team 102's 
 
 ## Block Diagram
 
-![team102-block-diagram.png)
+![Weight sensing block diagram, Team 102 Project Aurora](Team%20102%20-%20Natalia%20Castillo-Diaz%20-%20Project%20Aurora.drawio.png)
 
 Arrows point toward the receiving block. Gray connector pins are spare. Click the image to enlarge it.
 
