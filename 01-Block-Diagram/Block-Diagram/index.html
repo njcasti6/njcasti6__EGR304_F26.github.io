@@ -915,15 +915,15 @@
   <h1>Individual Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This is the individual block diagram for the weight sensing board of Team 102's Project Aurora. The board detects when a dose is lifted out of the cup using a 100 g load cell. It has a sensor and no actuator, and it reports status to the hub (Reminder &amp; Alerts) board over an 8-pin ribbon cable.</p>
+<p>This is the individual block diagram for the weight sensing board of Team 102's Project Aurora (Natalia Castillo-Diaz). The board detects when a dose is lifted out of the cup using a 100 g load cell. It has a sensor and no actuator, and it reports status to the hub (Reminder &amp; Alerts) board over an 8-pin ribbon cable.</p>
 <ul>
-<li>Power source: a 9 V barrel jack (Same Sky PJ-102AH) regulated down to 5 V by an L7805CV. The PIC18F57Q43 Curiosity Nano produces the 3.3 V logic supply.</li>
-<li>Sensor: an HT Sensor Technology 100 g load cell, read through an Analog Devices AD623ANZ instrumentation amplifier and an RC low-pass filter into the ADC on RA0.</li>
+<li>Power source: a 9 V barrel jack (Same Sky PJ-102AH) regulated down to 5 V by an STMicroelectronics L7805CV. The PIC18F57Q43 Curiosity Nano produces the 3.3 V logic supply.</li>
+<li>Sensor: an HT Sensor Technology TAL221 100 g load cell, read through an Analog Devices AD623ANZ instrumentation amplifier and an RC low-pass filter into the ADC on RA0.</li>
 <li>Other input: a tare / calibrate button on RB0.</li>
 <li>Team connections: one ribbon cable (J1 to the hub's J1) carrying five digital signals, one analog signal and ground. See the pin tables below.</li>
 </ul>
 <h2 id="block-diagram">Block Diagram</h2>
-<p>![team102-block-diagram.png)</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../individual-block-diagram.png" data-desc-position="bottom"><img alt="Weight sensing block diagram, Team 102 Project Aurora" src="../individual-block-diagram.png"></a></p>
 <p>Arrows point toward the receiving block. Gray connector pins are spare. Click the image to enlarge it.</p>
 <h2 id="parts">Parts</h2>
 <table>
