@@ -6,16 +6,16 @@ tags:
 ---
 
 ## Overview
-This is the individual block diagram for the weight sensing board of Team 102's Project Aurora (Natalia Castillo-Diaz). The board detects when a dose is lifted out of the cup using a 100 g load cell. It has a sensor and no actuator, and it reports status to the hub (Reminder & Alerts) board over an 8-pin ribbon cable.
+This is the individual block diagram for the weight sensing board of Team 102's Project Aurora. The board detects when a dose is lifted out of the cup using a 100 g load cell. It has a sensor and no actuator, and it reports status to the hub (Reminder & Alerts) board over an 8-pin ribbon cable.
 
-* Power source: a 9 V barrel jack (Same Sky PJ-102AH) regulated down to 5 V by an STMicroelectronics L7805CV. The PIC18F57Q43 Curiosity Nano produces the 3.3 V logic supply.
-* Sensor: an HT Sensor Technology TAL221 100 g load cell, read through an Analog Devices AD623ANZ instrumentation amplifier and an RC low-pass filter into the ADC on RA0.
+* Power source: a 9 V barrel jack (Same Sky PJ-102AH) regulated down to 5 V by an L7805CV. The PIC18F57Q43 Curiosity Nano produces the 3.3 V logic supply.
+* Sensor: an HT Sensor Technology 100 g load cell, read through an Analog Devices AD623ANZ instrumentation amplifier and an RC low-pass filter into the ADC on RA0.
 * Other input: a tare / calibrate button on RB0.
 * Team connections: one ribbon cable (J1 to the hub's J1) carrying five digital signals, one analog signal and ground. See the pin tables below.
 
 ## Block Diagram
 
-![Weight sensing block diagram, Team 102 Project Aurora](individual-block-diagram.png)
+![team102-block-diagram.png)
 
 Arrows point toward the receiving block. Gray connector pins are spare. Click the image to enlarge it.
 
