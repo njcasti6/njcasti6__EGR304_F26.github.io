@@ -26,7 +26,7 @@
 
     
       
-        <title>Individal Block Diagram - EGR 304 Data Sheet Template</title>
+        <title>Individual Block Diagram - EGR 304 Data Sheet Template</title>
       
     
     
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Individal Block Diagram
+              Individual Block Diagram
             
           </span>
         </div>
@@ -367,7 +367,7 @@
   <img src="../../static/logo304.svg" alt="logo">
 
     </a>
-    EGR 304 Data Sheet 
+    EGR 304 Data Sheet Template
   </label>
   
     <div class="md-nav__source">
@@ -471,7 +471,7 @@
           
   
   <span class="md-ellipsis">
-    Individal Block Diagram
+    Individual Block Diagram
   </span>
   
 
@@ -482,7 +482,7 @@
         
   
   <span class="md-ellipsis">
-    Individal Block Diagram
+    Individual Block Diagram
   </span>
   
 
@@ -511,9 +511,45 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#block-diagram" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      Block Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microcontroller-pins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microcontroller Pins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ribbon-cable-weight-j1-to-hub-j1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ribbon Cable: Weight J1 to Hub J1
     </span>
   </a>
   
@@ -809,9 +845,45 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#block-diagram" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      Block Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microcontroller-pins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microcontroller Pins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ribbon-cable-weight-j1-to-hub-j1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ribbon Cable: Weight J1 to Hub J1
     </span>
   </a>
   
@@ -840,21 +912,233 @@
   
 
 
-  <h1>Individal Block Diagram</h1>
+  <h1>Individual Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...</p>
-<p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
-<h2 id="example-block-diagram">Example Block Diagram</h2>
-<p>Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../individual-block-diagram.png" data-desc-position="bottom"><img alt="Example of Indivial Block diagram " src="../individual-block-diagram.png"></a></p>
+<p>This is the individual block diagram for the weight sensing board of Team 102's Project Aurora. The board detects when a dose is lifted out of the cup using a 100 g load cell. It has a sensor and no actuator, and it reports status to the hub (Reminder &amp; Alerts) board over an 8-pin ribbon cable.</p>
+<ul>
+<li>Power source: a 9 V barrel jack (Same Sky PJ-102AH) regulated down to 5 V by an L7805CV. The PIC18F57Q43 Curiosity Nano produces the 3.3 V logic supply.</li>
+<li>Sensor: an HT Sensor Technology 100 g load cell, read through an Analog Devices AD623ANZ instrumentation amplifier and an RC low-pass filter into the ADC on RA0.</li>
+<li>Other input: a tare / calibrate button on RB0.</li>
+<li>Team connections: one ribbon cable (J1 to the hub's J1) carrying five digital signals, one analog signal and ground. See the pin tables below.</li>
+</ul>
+<h2 id="block-diagram">Block Diagram</h2>
+<p>![team102-block-diagram.png)</p>
+<p>Arrows point toward the receiving block. Gray connector pins are spare. Click the image to enlarge it.</p>
+<h2 id="parts">Parts</h2>
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Manufacturer</th>
+<th>Part number</th>
+<th>Supply</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Barrel jack</td>
+<td>Same Sky</td>
+<td>PJ-102AH</td>
+<td>9 V</td>
+</tr>
+<tr>
+<td>5 V regulator</td>
+<td>STMicroelectronics</td>
+<td>L7805CV</td>
+<td>9 V in, 5 V out</td>
+</tr>
+<tr>
+<td>100 g load cell</td>
+<td>HT Sensor Technology</td>
+<td>TAL221</td>
+<td>3.3 V</td>
+</tr>
+<tr>
+<td>Instrumentation amplifier</td>
+<td>Analog Devices</td>
+<td>AD623ANZ</td>
+<td>3.3 V</td>
+</tr>
+<tr>
+<td>RC low-pass filter</td>
+<td>Passive</td>
+<td>R and C values to be chosen</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>Tare / calibrate button</td>
+<td>To be chosen</td>
+<td>To be chosen</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>Microcontroller board</td>
+<td>Microchip</td>
+<td>PIC18F57Q43 Curiosity Nano (DM164150)</td>
+<td>5 V in, 3.3 V logic</td>
+</tr>
+</tbody>
+</table>
+<h2 id="power">Power</h2>
+<table>
+<thead>
+<tr>
+<th>Supply</th>
+<th>Regulated</th>
+<th>Maximum current</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9 V</td>
+<td>No</td>
+<td>Set by the wall adapter</td>
+</tr>
+<tr>
+<td>5 V</td>
+<td>Yes (L7805CV)</td>
+<td>1.5 A</td>
+</tr>
+<tr>
+<td>3.3 V</td>
+<td>Yes (Curiosity Nano)</td>
+<td>See the Curiosity Nano user guide</td>
+</tr>
+</tbody>
+</table>
+<h2 id="microcontroller-pins">Microcontroller Pins</h2>
+<table>
+<thead>
+<tr>
+<th>Peripheral</th>
+<th>Pin</th>
+<th>Signal</th>
+<th>Direction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ADC</td>
+<td>RA0</td>
+<td>Filtered load cell signal</td>
+<td>In</td>
+</tr>
+<tr>
+<td>DI</td>
+<td>RB0</td>
+<td>Tare / calibrate button</td>
+<td>In</td>
+</tr>
+<tr>
+<td>DI</td>
+<td>RD0</td>
+<td>DOSE_READY</td>
+<td>In</td>
+</tr>
+<tr>
+<td>DO</td>
+<td>RD1</td>
+<td>DOSE_REMOVED</td>
+<td>Out</td>
+</tr>
+<tr>
+<td>DO</td>
+<td>RD2</td>
+<td>WEIGHT_FAULT</td>
+<td>Out</td>
+</tr>
+<tr>
+<td>DI</td>
+<td>RD3</td>
+<td>TARE_REQ</td>
+<td>In</td>
+</tr>
+<tr>
+<td>DO</td>
+<td>RD4</td>
+<td>HEARTBEAT_A</td>
+<td>Out</td>
+</tr>
+<tr>
+<td>DAC</td>
+<td>RA2</td>
+<td>WEIGHT_LEVEL (0 to 3.3 V = 0 to 100 g)</td>
+<td>Out</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ribbon-cable-weight-j1-to-hub-j1">Ribbon Cable: Weight J1 to Hub J1</h2>
+<p>All board-to-board signals are 3.3 V logic and active HIGH. Pins 1 to 5 are digital, pins 6 and 7 are analog, and pin 8 is ground.</p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Signal</th>
+<th>From</th>
+<th>Weight board pin</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>DOSE_READY</td>
+<td>Hub</td>
+<td>RD0</td>
+<td>Dose is due</td>
+</tr>
+<tr>
+<td>2</td>
+<td>DOSE_REMOVED</td>
+<td>Weight</td>
+<td>RD1</td>
+<td>Dose lifted out</td>
+</tr>
+<tr>
+<td>3</td>
+<td>WEIGHT_FAULT</td>
+<td>Weight</td>
+<td>RD2</td>
+<td>Bad reading</td>
+</tr>
+<tr>
+<td>4</td>
+<td>TARE_REQ</td>
+<td>Hub</td>
+<td>RD3</td>
+<td>Re-zero scale</td>
+</tr>
+<tr>
+<td>5</td>
+<td>HEARTBEAT_A</td>
+<td>Weight</td>
+<td>RD4</td>
+<td>1 Hz "alive"</td>
+</tr>
+<tr>
+<td>6</td>
+<td>WEIGHT_LEVEL</td>
+<td>Weight</td>
+<td>RA2</td>
+<td>0 to 3.3 V = 0 to 100 g</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Spare</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>Not used</td>
+</tr>
+<tr>
+<td>8</td>
+<td>GND</td>
+<td>n/a</td>
+<td>GND</td>
+<td>Ground</td>
+</tr>
+</tbody>
+</table>
 
 
 
