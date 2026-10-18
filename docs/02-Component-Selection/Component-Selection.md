@@ -74,7 +74,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 2. Texas Instruments INA125P, 16-PDIP
 **$12.78 each** ($10.04 at 10+) · [DigiKey: INA125P](https://www.digikey.com/en/products/detail/texas-instruments/INA125P/254670) · [TI INA125 datasheet](https://www.ti.com/lit/gpn/ina125)
 
-![INA125P](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/729/762/296%7E4040049%7EN%7E16_sml.jpg)
+![INA125P](ina125.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -89,7 +89,7 @@ This page compares at least three solutions for each major component on the Weig
 **$0.59 each** ($0.50 at 25) · [DigiKey: MCP6004-I/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) (datasheet linked on the product page)
 
 <!-- TODO: save a product photo from the DigiKey page into images/mcp6004.jpg -->
-![MCP6004-I/P](images/mcp6004.jpg)
+![MCP6004-I/P](mcp6004.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -113,7 +113,7 @@ This page compares at least three solutions for each major component on the Weig
 **Price: TODO (about $0.50–$0.80 in the listings checked)** · [DigiKey: L7805CV](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) (datasheet linked on the product page)
 
 <!-- TODO: save a product photo from the DigiKey page into images/l7805cv.jpg -->
-![L7805CV](images/l7805cv.jpg)
+![L7805CV](lm2940.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -127,7 +127,7 @@ This page compares at least three solutions for each major component on the Weig
 **Price: TODO (about $1.74 each at a major distributor)** · [DigiKey: LM2940CT-5.0](https://www.digikey.com/en/products/detail/texas-instruments/LM2940CT-5-0-NOPB/32575) (datasheet linked on the product page)
 
 <!-- TODO: save a product photo from the DigiKey page into images/lm2940.jpg -->
-![LM2940CT-5.0](images/lm2940.jpg)
+![LM2940CT-5.0](lm.2940.jpg)
 
 | Pros | Cons |
 |---|---|
