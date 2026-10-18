@@ -1385,7 +1385,6 @@
 <h2 id="3-5-v-voltage-regulator-weight-sensing">3. 5 V Voltage Regulator — <strong>Weight Sensing</strong></h2>
 <h3 id="option-1-stmicroelectronics-l7805cv-linear-regulator-to-220">Option 1. STMicroelectronics L7805CV, linear regulator, TO-220</h3>
 <p><strong>Price: TODO (about <span class="arithmatex">\(0.50–\)</span>0.80 in the listings checked)</strong> · <a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">DigiKey: L7805CV</a> (datasheet linked on the product page)</p>
-<!-- TODO: save a product photo from the DigiKey page into images/l7805cv.jpg -->
 <p></p>
 <table>
 <thead>
@@ -1448,7 +1447,6 @@
 </table>
 <h3 id="option-3-recom-r-78e50-05-switching-regulator-module-3-sip">Option 3. RECOM R-78E5.0-0.5, switching regulator module, 3-SIP</h3>
 <p><strong>Price: TODO (about <span class="arithmatex">\(2.50–\)</span>4 each depending on the site)</strong> · <a href="https://www.digikey.com/en/products/detail/recom-power/R-78E5-0-0-5/2834904">DigiKey: R-78E5.0-0.5</a> (datasheet linked on the product page)</p>
-<!-- TODO: save a product photo from the DigiKey page into images/r78e5.jpg -->
 <p></p>
 <table>
 <thead>
@@ -1480,12 +1478,8 @@
 <p><strong>Rationale:</strong> The weight board draws only a few tens of milliamps, so the linear regulator's heat is small (for example, 4 V × 0.1 A = 0.4 W). The L7805CV is inexpensive, familiar from class, and has no switching noise, which matters for the few-millivolt load cell signal. The LM2940 and RECOM parts offer lower dropout or better efficiency, but the extra cost is not justified here.</p>
 <hr>
 <h2 id="4-9-v-external-power-source-wall-adapter-weight-sensing">4. 9 V External Power Source (Wall Adapter) — <strong>Weight Sensing</strong></h2>
-<blockquote>
-<p><strong>TODO:</strong> confirm current prices on each page, and confirm the adapter plug fits the PJ-102AH jack. The PJ-102AH mates with a <strong>2.0 mm center-hole × 5.5 mm outer-diameter</strong> plug, while the adapters below use <strong>2.1 mm</strong> plugs.</p>
-<p><strong>TODO (optional):</strong> add the wall adapter you already use as an extra option (model, voltage, current, plug size from its label).</p>
-</blockquote>
 <h3 id="option-1-triad-magnetics-wsu090-0800-9-v-800-ma-wall-adapter">Option 1. Triad Magnetics WSU090-0800, 9 V, 800 mA wall adapter</h3>
-<p><strong>$7.35 each</strong> (<a href="https://www.digikey.com/en/products/detail/triad-magnetics/WSU090-0800/3094975">DigiKey: WSU090-0800</a>) · datasheet on the product page</p>
+<p><strong>$7.35 each</strong> (<a href="https://www.digikey.com/en/products/detail/triad-magnetics/WSU090-0800/3094975">DigiKey: WSU090-0800</a>) · </p>
 <!-- TODO: save a product photo from the DigiKey page into images/wsu090-0800.jpg -->
 <p></p>
 <table>
@@ -1516,7 +1510,6 @@
 </table>
 <h3 id="option-2-cui-swi18-9-n-p5-9-v-22-a-20-w-wall-adapter">Option 2. CUI SWI18-9-N-P5, 9 V, 2.2 A, 20 W wall adapter</h3>
 <p><strong>Price: TODO</strong> (<a href="https://www.digikey.com/en/products/detail/cui-inc/SWI18-9-N-P5/5417740">DigiKey: SWI18-9-N-P5</a>) · datasheet on the product page</p>
-<!-- TODO: save a product photo from the DigiKey page into images/swi18-9-n-p5.jpg -->
 <p></p>
 <table>
 <thead>
@@ -1541,8 +1534,7 @@
 </tbody>
 </table>
 <h3 id="option-3-phihong-psac12r-090-r-9-v-133-a-12-w-wall-adapter">Option 3. Phihong PSAC12R-090-R, 9 V, 1.33 A, 12 W wall adapter</h3>
-<p><strong>Price: TODO</strong> (<a href="https://www.digikey.com/en/products/detail/phihong-usa/PSAC12R-090-R/5418510">DigiKey: PSAC12R-090-R</a>) · datasheet on the product page</p>
-<!-- TODO: save a product photo from the DigiKey page into images/psac12r-090-r.jpg -->
+<p><strong>Price: TODO</strong> (<a href="https://www.digikey.com/en/products/detail/phihong-usa/PSAC12R-090-R/5418510">DigiKey: PSAC12R-090-R</a>) · </p>
 <p></p>
 <table>
 <thead>
@@ -1570,9 +1562,6 @@
 <p><strong>Rationale:</strong> The board's total current is well below 0.1 A, so the 800 mA rating leaves far more than the required 25% margin. The WSU090-0800 is the least expensive option and is in stock, and its regulated 9 V output feeds the L7805CV with enough headroom above the 7 V needed. The higher-current adapters add cost and lead time without any benefit for this load.</p>
 <hr>
 <h2 id="5-interface-pin-table-weight-board-hub-j1">5. Interface Pin Table (Weight board → Hub J1)</h2>
-<blockquote>
-<p><strong>TODO:</strong> verify against the final block diagram.</p>
-</blockquote>
 <table>
 <thead>
 <tr>
