@@ -12,7 +12,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 1. SparkFun 14727 / HT Sensor Technology TAL221, 100 g straight-bar load cell
 **$14.50 each** · [DigiKey: SparkFun 14727](https://www.digikey.com/en/products/detail/sparkfun-electronics/14727/9555601) · [TAL221 datasheet](https://cdn.sparkfun.com/assets/9/9/a/f/3/TAL221.pdf)
 
-![SparkFun 14727 / TAL221 load cell](tal221.jpg)
+![](tal221.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -25,7 +25,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 2. Phidgets 3139_0, 100 g single-point load cell
 **$7.00 each** (discounts at quantity) · [Phidgets 3139_0](https://www.phidgets.com/?prodid=230) · [mechanical drawing](https://www.phidgets.com/productfiles/3139/3139_0/Documentation/3139_0_Mechanical_2.pdf)
 
-![Phidgets 3139](phidgets-3139.jpg)
+![](phidgets-3139.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -38,7 +38,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 3. Phidgets FRC4130_0, 300 g single-point load cell (C3 accuracy class)
 **$25.00 each** · [Phidgets FRC4130_0](https://www.phidgets.com/?prodid=1299)
 
-![Phidgets FRC4130_0](frc4130.jpg)
+![](frc4130.jpg)
 
 | Pros | Cons |
 |---|---|
