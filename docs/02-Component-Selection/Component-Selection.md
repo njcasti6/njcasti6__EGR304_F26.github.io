@@ -4,7 +4,6 @@
 
 This page compares at least three solutions for each major component on the Weight Sensing board. Every component below belongs to the **Weight Sensing subsystem**. Excluded per the assignment: the microcontroller (PIC18F57Q43 Curiosity Nano), passives (including the RC low-pass filter), the tare pushbutton, and the PJ-102AH barrel jack connector.
 
-> Items marked **TODO** must be checked before submitting (prices change by site and day; images should be saved into the repo).
 
 ---
 
@@ -37,7 +36,7 @@ This page compares at least three solutions for each major component on the Weig
 | Small (about 35 mm), with dual mounting holes and a pre-attached 110 mm cable | |
 
 ### Option 3. Phidgets FRC4130_0, 300 g single-point load cell (C3 accuracy class)
-**$25.00 each** (discounts at 5+) · [Phidgets FRC4130_0](https://www.phidgets.com/?prodid=1299)
+**$25.00 each** · [Phidgets FRC4130_0](https://www.phidgets.com/?prodid=1299)
 
 ![Phidgets FRC4130_0](frc4130.jpg)
 
@@ -72,7 +71,7 @@ This page compares at least three solutions for each major component on the Weig
 | Inexpensive at $9.87, dropping to $7.69 at 10+ | |
 
 ### Option 2. Texas Instruments INA125P, 16-PDIP
-**$12.78 each** ($10.04 at 10+) · [DigiKey: INA125P](https://www.digikey.com/en/products/detail/texas-instruments/INA125P/254670) · [TI INA125 datasheet](https://www.ti.com/lit/gpn/ina125)
+**$12.78 each** · [DigiKey: INA125P](https://www.digikey.com/en/products/detail/texas-instruments/INA125P/254670) · [TI INA125 datasheet](https://www.ti.com/lit/gpn/ina125)
 
 ![INA125P](ina125.jpg)
 
@@ -86,9 +85,9 @@ This page compares at least three solutions for each major component on the Weig
 | Gain set with a single external resistor over a very wide range, and a built-in bridge reference (datasheet) | |
 
 ### Option 3. Custom: three-op-amp instrumentation amplifier built from a Microchip MCP6004-I/P quad op amp, 14-PDIP
-**$0.59 each** ($0.50 at 25) · [DigiKey: MCP6004-I/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) (datasheet linked on the product page)
+**$0.59 each** · [DigiKey: MCP6004-I/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) (datasheet linked on the product page)
 
-<!-- TODO: save a product photo from the DigiKey page into images/mcp6004.jpg -->
+
 ![MCP6004-I/P](mcp6004.jpg)
 
 | Pros | Cons |
@@ -107,7 +106,7 @@ This page compares at least three solutions for each major component on the Weig
 
 ## 3. 5 V Voltage Regulator — **Weight Sensing**
 
-> **TODO:** confirm the current US unit price and stock for each regulator on its DigiKey page.
+
 
 ### Option 1. STMicroelectronics L7805CV, linear regulator, TO-220
 **Price: TODO (about $0.50–$0.80 in the listings checked)** · [DigiKey: L7805CV](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) (datasheet linked on the product page)
@@ -124,9 +123,8 @@ This page compares at least three solutions for each major component on the Weig
 | The part used in class and already on the block diagram | |
 
 ### Option 2. Texas Instruments LM2940CT-5.0/NOPB, low-dropout regulator, TO-220
-**Price: TODO (about $1.74 each at a major distributor)** · [DigiKey: LM2940CT-5.0](https://www.digikey.com/en/products/detail/texas-instruments/LM2940CT-5-0-NOPB/32575) (datasheet linked on the product page)
+**Price: 1.74** · [DigiKey: LM2940CT-5.0](https://www.digikey.com/en/products/detail/texas-instruments/LM2940CT-5-0-NOPB/32575) (datasheet linked on the product page)
 
-<!-- TODO: save a product photo from the DigiKey page into images/lm2940.jpg -->
 ![LM2940CT-5.0](lm.2940.jpg)
 
 | Pros | Cons |
