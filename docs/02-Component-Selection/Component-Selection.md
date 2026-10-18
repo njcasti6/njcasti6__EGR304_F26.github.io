@@ -26,7 +26,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 2. Phidgets 3139_0, 100 g single-point load cell
 **$7.00 each** (discounts at quantity) · [Phidgets 3139_0](https://www.phidgets.com/?prodid=230) · [mechanical drawing](https://www.phidgets.com/productfiles/3139/3139_0/Documentation/3139_0_Mechanical_2.pdf)
 
-![Phidgets 3139_0](phidgets-3139.jpg)
+![Phidgets 3139_0](./phidgets-3139.jpg)
 
 | Pros | Cons |
 |---|---|
