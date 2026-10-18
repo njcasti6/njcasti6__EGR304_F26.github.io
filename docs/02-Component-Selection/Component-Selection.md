@@ -59,7 +59,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 1. Analog Devices AD623ANZ, 8-PDIP
 **$9.87 each** ($7.69 at 10+) · [DigiKey: AD623ANZ](https://www.digikey.com/en/products/detail/analog-devices-inc/AD623ANZ/750974) · [AD623 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf)
 
-![AD623ANZ](ad623.jpg)
+![](ad623.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -73,7 +73,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 2. Texas Instruments INA125P, 16-PDIP
 **$12.78 each** · [DigiKey: INA125P](https://www.digikey.com/en/products/detail/texas-instruments/INA125P/254670) · [TI INA125 datasheet](https://www.ti.com/lit/gpn/ina125)
 
-![INA125P](ina125.jpg)
+![](ina125.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -88,7 +88,7 @@ This page compares at least three solutions for each major component on the Weig
 **$0.59 each** · [DigiKey: MCP6004-I/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) (datasheet linked on the product page)
 
 
-![MCP6004-I/P](mcp6004.jpg)
+![](mcp6004.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -111,7 +111,6 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 1. STMicroelectronics L7805CV, linear regulator, TO-220
 **Price: TODO (about $0.50–$0.80 in the listings checked)** · [DigiKey: L7805CV](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) (datasheet linked on the product page)
 
-<!-- TODO: save a product photo from the DigiKey page into images/l7805cv.jpg -->
 ![L7805CV](lm2940.jpg)
 
 | Pros | Cons |
@@ -125,7 +124,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 2. Texas Instruments LM2940CT-5.0/NOPB, low-dropout regulator, TO-220
 **Price: 1.74** · [DigiKey: LM2940CT-5.0](https://www.digikey.com/en/products/detail/texas-instruments/LM2940CT-5-0-NOPB/32575) (datasheet linked on the product page)
 
-![LM2940CT-5.0](lm.2940.jpg)
+![](lm.2940.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -137,8 +136,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 3. RECOM R-78E5.0-0.5, switching regulator module, 3-SIP
 **Price: TODO (about $2.50–$4 each depending on the site)** · [DigiKey: R-78E5.0-0.5](https://www.digikey.com/en/products/detail/recom-power/R-78E5-0-0-5/2834904) (datasheet linked on the product page)
 
-<!-- TODO: save a product photo from the DigiKey page into images/r78e5.jpg -->
-![R-78E5.0-0.5](images/r78e5.jpg)
+![](r78.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -155,15 +153,12 @@ This page compares at least three solutions for each major component on the Weig
 
 ## 4. 9 V External Power Source (Wall Adapter) — **Weight Sensing**
 
-> **TODO:** confirm current prices on each page, and confirm the adapter plug fits the PJ-102AH jack. The PJ-102AH mates with a **2.0 mm center-hole × 5.5 mm outer-diameter** plug, while the adapters below use **2.1 mm** plugs.
->
-> **TODO (optional):** add the wall adapter you already use as an extra option (model, voltage, current, plug size from its label).
 
 ### Option 1. Triad Magnetics WSU090-0800, 9 V, 800 mA wall adapter
-**$7.35 each** ([DigiKey: WSU090-0800](https://www.digikey.com/en/products/detail/triad-magnetics/WSU090-0800/3094975)) · datasheet on the product page
+**$7.35 each** ([DigiKey: WSU090-0800](https://www.digikey.com/en/products/detail/triad-magnetics/WSU090-0800/3094975)) · 
 
 <!-- TODO: save a product photo from the DigiKey page into images/wsu090-0800.jpg -->
-![WSU090-0800](images/wsu090-0800.jpg)
+![WSU090-0800](wsu.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -175,8 +170,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 2. CUI SWI18-9-N-P5, 9 V, 2.2 A, 20 W wall adapter
 **Price: TODO** ([DigiKey: SWI18-9-N-P5](https://www.digikey.com/en/products/detail/cui-inc/SWI18-9-N-P5/5417740)) · datasheet on the product page
 
-<!-- TODO: save a product photo from the DigiKey page into images/swi18-9-n-p5.jpg -->
-![SWI18-9-N-P5](images/swi18-9-n-p5.jpg)
+![](swi.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -185,10 +179,9 @@ This page compares at least three solutions for each major component on the Weig
 | Meets the safety standards listed, including UL and FCC | 2.1 mm plug, same fit question |
 
 ### Option 3. Phihong PSAC12R-090-R, 9 V, 1.33 A, 12 W wall adapter
-**Price: TODO** ([DigiKey: PSAC12R-090-R](https://www.digikey.com/en/products/detail/phihong-usa/PSAC12R-090-R/5418510)) · datasheet on the product page
+**Price: TODO** ([DigiKey: PSAC12R-090-R](https://www.digikey.com/en/products/detail/phihong-usa/PSAC12R-090-R/5418510)) · 
 
-<!-- TODO: save a product photo from the DigiKey page into images/psac12r-090-r.jpg -->
-![PSAC12R-090-R](images/psac12r-090-r.jpg)
+![](psac.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -204,7 +197,6 @@ This page compares at least three solutions for each major component on the Weig
 
 ## 5. Interface Pin Table (Weight board → Hub J1)
 
-> **TODO:** verify against the final block diagram.
 
 | J1 pin | Signal | MCU pin | Direction / type | Notes |
 |---|---|---|---|---|
