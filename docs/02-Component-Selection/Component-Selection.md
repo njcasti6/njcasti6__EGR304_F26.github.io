@@ -23,7 +23,7 @@ This page compares at least three solutions for each major component on the Weig
 | Sold through a stocked distributor (DigiKey) | Fragile: easy to overload past the 100 g rating |
 
 ### Option 2. Phidgets 3139_0, 100 g single-point load cell
-**$7.00 each** (discounts at quantity) · [Phidgets 3139_0](https://www.phidgets.com/?prodid=230) · [mechanical drawing](https://www.phidgets.com/productfiles/3139/3139_0/Documentation/3139_0_Mechanical_2.pdf)
+**$7.00 each**· [Phidgets 3139_0](https://www.phidgets.com/?prodid=230) · [mechanical drawing](https://www.phidgets.com/productfiles/3139/3139_0/Documentation/3139_0_Mechanical_2.pdf)
 
 ![](phidgets-3139.jpg)
 
@@ -57,7 +57,7 @@ This page compares at least three solutions for each major component on the Weig
 ## 2. Instrumentation Amplifier — **Weight Sensing**
 
 ### Option 1. Analog Devices AD623ANZ, 8-PDIP
-**$9.87 each** ($7.69 at 10+) · [DigiKey: AD623ANZ](https://www.digikey.com/en/products/detail/analog-devices-inc/AD623ANZ/750974) · [AD623 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf)
+**$9.87 each**  · [DigiKey: AD623ANZ](https://www.digikey.com/en/products/detail/analog-devices-inc/AD623ANZ/750974) · [AD623 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf)
 
 ![](ad623.jpg)
 
@@ -85,8 +85,7 @@ This page compares at least three solutions for each major component on the Weig
 | Gain set with a single external resistor over a very wide range, and a built-in bridge reference (datasheet) | |
 
 ### Option 3. Custom: three-op-amp instrumentation amplifier built from a Microchip MCP6004-I/P quad op amp, 14-PDIP
-**$0.59 each** · [DigiKey: MCP6004-I/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) (datasheet linked on the product page)
-
+**$0.59 each** · [DigiKey: MCP6004-I/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) 
 
 ![](mcp6004.jpg)
 
@@ -109,7 +108,7 @@ This page compares at least three solutions for each major component on the Weig
 
 
 ### Option 1. STMicroelectronics L7805CV, linear regulator, TO-220
-**Price: TODO (about $0.50–$0.80 in the listings checked)** · [DigiKey: L7805CV](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) (datasheet linked on the product page)
+· [DigiKey: L7805CV](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) (datasheet 
 
 ![L7805CV](lm2940.jpg)
 
@@ -122,7 +121,7 @@ This page compares at least three solutions for each major component on the Weig
 | The part used in class and already on the block diagram | |
 
 ### Option 2. Texas Instruments LM2940CT-5.0/NOPB, low-dropout regulator, TO-220
-**Price: 1.74** · [DigiKey: LM2940CT-5.0](https://www.digikey.com/en/products/detail/texas-instruments/LM2940CT-5-0-NOPB/32575) (datasheet linked on the product page)
+**Price: 1.74** · [DigiKey: LM2940CT-5.0](https://www.digikey.com/en/products/detail/texas-instruments/LM2940CT-5-0-NOPB/32575)
 
 ![](lm.2940.jpg)
 
@@ -134,7 +133,7 @@ This page compares at least three solutions for each major component on the Weig
 | Through-hole TO-220 package | Rated for only 1 A, and needs a specific output capacitor to stay stable (check the datasheet) |
 
 ### Option 3. RECOM R-78E5.0-0.5, switching regulator module, 3-SIP
-**Price: TODO (about $2.50–$4 each depending on the site)** · [DigiKey: R-78E5.0-0.5](https://www.digikey.com/en/products/detail/recom-power/R-78E5-0-0-5/2834904) (datasheet linked on the product page)
+ [DigiKey: R-78E5.0-0.5](https://www.digikey.com/en/products/detail/recom-power/R-78E5-0-0-5/2834904) 
 
 ![](r78.jpg)
 
@@ -157,8 +156,8 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 1. Triad Magnetics WSU090-0800, 9 V, 800 mA wall adapter
 **$7.35 each** ([DigiKey: WSU090-0800](https://www.digikey.com/en/products/detail/triad-magnetics/WSU090-0800/3094975)) · 
 
-<!-- TODO: save a product photo from the DigiKey page into images/wsu090-0800.jpg -->
-![WSU090-0800](wsu.jpg)
+
+![0](wsu.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -168,7 +167,7 @@ This page compares at least three solutions for each major component on the Weig
 | 7.2 W, with 0 to 40 °C operating range | |
 
 ### Option 2. CUI SWI18-9-N-P5, 9 V, 2.2 A, 20 W wall adapter
-**Price: TODO** ([DigiKey: SWI18-9-N-P5](https://www.digikey.com/en/products/detail/cui-inc/SWI18-9-N-P5/5417740)) · datasheet on the product page
+ ([DigiKey: SWI18-9-N-P5](https://www.digikey.com/en/products/detail/cui-inc/SWI18-9-N-P5/5417740)) ·
 
 ![](swi.jpg)
 
@@ -179,7 +178,7 @@ This page compares at least three solutions for each major component on the Weig
 | Meets the safety standards listed, including UL and FCC | 2.1 mm plug, same fit question |
 
 ### Option 3. Phihong PSAC12R-090-R, 9 V, 1.33 A, 12 W wall adapter
-**Price: TODO** ([DigiKey: PSAC12R-090-R](https://www.digikey.com/en/products/detail/phihong-usa/PSAC12R-090-R/5418510)) · 
+([DigiKey: PSAC12R-090-R](https://www.digikey.com/en/products/detail/phihong-usa/PSAC12R-090-R/5418510)) · 
 
 ![](psac.jpg)
 
