@@ -26,7 +26,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 2. Phidgets 3139_0, 100 g single-point load cell
 **$7.00 each** (discounts at quantity) · [Phidgets 3139_0](https://www.phidgets.com/?prodid=230) · [mechanical drawing](https://www.phidgets.com/productfiles/3139/3139_0/Documentation/3139_0_Mechanical_2.pdf)
 
-![Phidgets 3139_0](https://cdn.phidgets.com/productfiles/3139/3139_0/Images/551x-/20/3139_0.jpg)
+![Phidgets 3139_0](phidgets-3139.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -39,7 +39,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 3. Phidgets FRC4130_0, 300 g single-point load cell (C3 accuracy class)
 **$25.00 each** (discounts at 5+) · [Phidgets FRC4130_0](https://www.phidgets.com/?prodid=1299)
 
-![Phidgets FRC4130_0](https://cdn.phidgets.com/productfiles/FRC4130/FRC4130_0/Images/551x-/20/FRC4130_0.jpg)
+![Phidgets FRC4130_0](frc4130.jpg)
 
 | Pros | Cons |
 |---|---|
@@ -60,7 +60,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 1. Analog Devices AD623ANZ, 8-PDIP
 **$9.87 each** ($7.69 at 10+) · [DigiKey: AD623ANZ](https://www.digikey.com/en/products/detail/analog-devices-inc/AD623ANZ/750974) · [AD623 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf)
 
-![AD623ANZ](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/010/930/391/505%7EN-8%7EN%7E8-Top_sml.jpg)
+![AD623ANZ](ad623.jpg)
 
 | Pros | Cons |
 |---|---|
