@@ -12,7 +12,7 @@ This page compares at least three solutions for each major component on the Weig
 ### Option 1. SparkFun 14727 / HT Sensor Technology TAL221, 100 g straight-bar load cell
 **$14.50 each** · [DigiKey: SparkFun 14727](https://www.digikey.com/en/products/detail/sparkfun-electronics/14727/9555601) · [TAL221 datasheet](https://cdn.sparkfun.com/assets/9/9/a/f/3/TAL221.pdf)
 
-![](tal221.jpg)
+![TAL221](tal221.jpg)
 
 | Pros | Cons |
 |---|---|
