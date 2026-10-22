@@ -8,9 +8,9 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 
 ![schematic](Schematic.jpg){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+**Figure ##:** Showing weight sensor schematic.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](SubsystemSchematicDesign.pdf), and the Zip folder of the project [*here*](SubsystemSchematicDesign.zip).
