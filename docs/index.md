@@ -11,7 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Team 102 </font><br>
 
-**Submission: 10, 17, 2026**
+**Submission: 10, 30, 2026**
 </center>
 
 ## Introduction
@@ -21,7 +21,7 @@ This datasheet documents my individual design work for Team 102's Project Aurora
 ### Project Summary
 
 The weight sensing board will measure the weight of the prescription on a 100 g load cell and turns that measurement into a clean, usable signal. Thus signal will be to tell when the prescription has be dispensed and removed to the team hub. 
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* Add context that ties into the link to your [team report.]([https://embedded-systems-design.github.io/EGR304TeamTemplate/](https://asu-egr304-2026-f-102.github.io/02-Team-Organization/))
 
 
 ### My Contribution
