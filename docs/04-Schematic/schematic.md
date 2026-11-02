@@ -11,7 +11,7 @@ Power enters the subsystem through a DC barrel jack and passes through a 500 mA 
 The Curiosity Nano also communicates with the other subsystems through signals including DOSE_READY, DOSE_REMOVED, WEIGHT_FAULT, TARE_REQ, HEARTBEAT_A, and WEIGHT_LEVEL. A backup header provides additional access to troubleshooting if something goes wrong. Test points were also incorporated throughout the design to ensure that the circuit is properly working.
 
 
-![SubsystemSchematic](SubsystemSchematicDesign-1.pdf){style width:"350" height:"300;"}
+![SubsystemSchematic](SubsystemSchematicDesign-1.png){style width:"350" height:"300;"}
 **Figure 2:** Showing weight sensor schematic.
 
 
