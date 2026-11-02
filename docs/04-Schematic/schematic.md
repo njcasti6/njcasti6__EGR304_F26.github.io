@@ -7,7 +7,7 @@ title: Schematic
 This schematic is design to support .... (highlight functionally, power, and controller).
 
 
-![schematic](Schematic.jpg){style width:"350" height:"300;"}
+![schematic](SubsystemSchematicDesignnew.pdf){style width:"350" height:"300;"}
 **Figure ##:** Showing weight sensor schematic.
 
 
