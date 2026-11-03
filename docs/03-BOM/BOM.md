@@ -10,7 +10,7 @@ written context
 
 
 ## Bill of Materials Example (as Image)
-![](SubsystemSchematicDesign.csv.xlsx){style width: "2000"}
+![](BillofMaterialsExample.xlsx)
 **Figure 2:** Example Bill of Materials as a screenshot.
 
 As you can see, the text can be difficult to read without opening the image.
