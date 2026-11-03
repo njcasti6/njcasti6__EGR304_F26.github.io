@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-The bill of materials covers the weight sensing board: a TAL221 100 g load cell feeds an AD623 instrumentation amplifier, a PIC Curiosity Nano reads the signal, and the board is powered from a wall adapter through a barrel jack, a 500 mA fuse and an L7805CV 5 V regulator. The prototype will roughly cost of $19.45. A lot of the materials are coming from Peralta 109 Lab at a cost of $0.00, and everything was ordered on 11/2/2026 but not yet received.
+The bill of materials covers the weight sensing board: a TAL221 100 g load cell feeds an AD623 instrumentation amplifier, a PIC Curiosity Nano reads the signal, and the board is powered from a wall adapter through a barrel jack, a 500 mA fuse and an L7805CV 5 V regulator. The prototype will roughly cost of 19.45. A lot of the materials are coming from Peralta 109 Lab at a cost of 0.00, and everything was ordered on 11/2/2026 but not yet received.
 
 ## Bill of Materials Example 
 ![](BILLOFMATERIALS.png)
