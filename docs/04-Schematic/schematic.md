@@ -17,4 +17,5 @@ The Curiosity Nano also communicates with the other subsystems through signals i
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](SubsystemSchematicDesignnew.pdf), and the Zip folder of the project [*here*](SubsystemSchematicDesignnew.zip).
+The schematic as a PDF download is available [*here*](SubsystemSchematicDesign1.pdf), and the Zip folder of the project [*here*](SubsystemSchematicDesignnew.zip).
+ 
